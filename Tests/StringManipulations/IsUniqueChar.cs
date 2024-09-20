@@ -40,6 +40,8 @@ namespace Tests.StringManipulations
             Assert.AreEqual(c.FirstUniqChar("loveleeltcode"), 2);
 
             Assert.AreEqual(c.FirstUniqChar("aabb"), -1);
+            Assert.AreEqual(c.FirstUniqChar2("aaab"), 3);
+
         }
 
     }
